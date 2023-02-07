@@ -1,0 +1,69 @@
+
+.new-recipe-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-recipe-main input {
+    margin: 5px;
+    width: 50%;
+    height: 1.5rem;
+}
+.new-recipe-main h1 {
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+.new-recipe-main form {
+    width: 50vw;
+    min-width: 300px;
+    max-width: 485px;
+}
+.new-recipe-main > form > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ing-ctn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ing-ctn div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.ing-ctn input {
+    min-width: 100%;
+}
+.ing-ctn ul {
+    width: 45%;
+}
+
+.btn-hold {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.radio-hold input {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.radio-hold div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-hold textarea {
+    width: 98%;
+}

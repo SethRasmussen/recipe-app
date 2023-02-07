@@ -1,0 +1,46 @@
+footer {
+    height: 150px;
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(62, 135, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.icon-ctn {
+    display: flex;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.icon-ctn {
+    display: flex;
+}
+
+.social-ctn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-mount {
+    margin-right: 20px;
+}
